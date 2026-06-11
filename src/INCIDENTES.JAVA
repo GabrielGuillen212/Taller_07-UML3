@@ -1,6 +1,12 @@
+
+
 public class INCIDENTE {
+
     //asociacioon los conoce a USUARIO
-    private USUSARIO usuario;
+    private PERSONALACADEMICO personalacademico;
+
+
+    private USUARIO usuario;
     protected int id;
     protected Datetime fecha_reportado;
     protected String estado;
